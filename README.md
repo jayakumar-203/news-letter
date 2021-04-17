@@ -11,3 +11,6 @@ The job details are send through registered mail,which you enter in the news-let
 
 The sign up page is success you would get a success screen ,if something went wrong it would show failure try again.
 
+## Success Page
+
+![1](https://user-images.githubusercontent.com/73425624/115115520-85a35100-9fb2-11eb-95f0-f0abfdd57cbd.PNG)
