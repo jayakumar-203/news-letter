@@ -19,12 +19,13 @@ app.post("/",function(req,res){
   const firstName=req.body.fname;
   const secondName=req.body.sname;
   const mail=req.body.mail;
+  console.log(firstName,secondName,mail)
   const data={
     members:[
       {
         email_address:mail,
         status:"subscribed",
-        merge_field:{
+        merge_fields:{
           FNAME:firstName,
           LNAME:secondName,
         }
